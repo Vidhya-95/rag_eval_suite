@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "According to the Medicare Benefit Policy Manual, what types of services are explicitly included in the definition of inpatient hospital or inpatient CAH services?",
+    "expected_answer": "Inpatient hospital or inpatient CAH services include bed and board, nursing and related services, use of hospital or CAH facilities, medical social services, drugs, biologicals, supplies, appliances, equipment, certain diagnostic or therapeutic services, medical or surgical services by certain interns or residents-in-training, and transportation services including ambulance transport.",
+    "expected_context_chunks": [
+      "Inpatient hospital services are defined in Title XVIII of the Social Security Act (the Act) and in the regulations (42 CFR 409.10): A. Subject to the conditions, limitations, and exceptions set forth in this subpart, the term \"inpatient hospital or inpatient CAH services\" means the following services furnished to an inpatient of a participating hospital or of a participating CAH or, in the case of emergency services or services in foreign hospitals, to an inpatient of a qualified hospital: 1. Bed and board. 2. Nursing services and other related services. 3. Use of hospital or CAH facilities. 4. Medical social services. 5. Drugs, biologicals, supplies, appliances, and equipment. 6. Certain other diagnostic or therapeutic services. 7. Medical or surgical services provided by certain interns or residents-in-training. 8. Transportation services, including transport by ambulance."
+    ]
+  },
+  {
+    "query_id": "Q02",
+    "query": "Which types of professional services are explicitly excluded from the definition of inpatient hospital services under Medicare Part A?",
+    "expected_answer": "Excluded services include posthospital SNF care (for swing-bed hospitals), nursing facility services under Title XIX, physician services paid on a fee schedule basis, physician assistant services, nurse practitioner and clinical nurse specialist services, certified nurse mid-wife services, qualified psychologist services, and services of an anesthetist as defined in 42 CFR 410.69.",
+    "expected_context_chunks": [
+      "B. Inpatient hospital services does not include the following types of services: 1. Posthospital SNF care, as described in 42 CFR 409.20, furnished by a hospital or a critical access hospital that has a swing-bed approval. 2. Nursing facility services, described in 42 CFR 440.155 that may be furnished as a Medicaid service under title XIX of the Act in a swing- bed hospital that has an approval to furnish nursing facility services. 3. Physician services that meet the requirements of 42 CFR 415.102(a) for payment on a fee schedule basis. 4. Physician assistant services, as defined in \u00a71861(s)(2)(K)(i) of the Act. 5. Nurse practitioner and clinical nurse specialist services, as defined in \u00a71861(s)(2)(K)(ii) of the Act. 6. Certified nurse mid-wife services, as defined in \u00a71861(gg) of the Act.",
+      "7. Qualified psychologist services, as defined in \u00a71861(ii) of the Act. 8. Services of an anesthetist, as defined in 42 CFR 410.69."
+    ]
+  },
+  {
+    "query_id": "Q03",
+    "query": "Under what conditions is blood covered as a Part A service, and what happens to coverage when an inpatient exhausts all benefit days?",
+    "expected_answer": "Blood must be furnished on a day that counts as a day of inpatient hospital services to be covered under Part A and count toward the blood deductible. If an inpatient has exhausted all benefit days in a benefit period or has elected not to use lifetime reserve days, blood is not covered and does not count toward the Part A blood deductible.",
+    "expected_context_chunks": [
+      "Blood must be furnished on a day which counts as a day of inpatient hospital services to be covered as a Part A service and to count toward the blood deductible. Thus, blood is not covered under Part A and does not count toward the Part A blood deductible when furnished to an inpatient after the inpatient has exhausted all benefit days in a benefit period, or where the individual has elected not to use lifetime reserve days. However, where the patient is discharged on their first day of entitlement or on the hospital's first day of participation, the hospital is permitted to submit a billing form with no accommodation charge, but with ancillary charges including blood."
+    ]
+  }
+]
